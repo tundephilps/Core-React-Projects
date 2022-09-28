@@ -1,0 +1,11 @@
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.Section{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+}
