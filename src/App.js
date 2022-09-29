@@ -9,6 +9,7 @@ import Password from "./Projects/PasswordMeter/Password";
 import LoginForm from "./Projects/Login/src/LoginForm";
 import Checkbox from "./Projects/Checkbox/Checkbox";
 import Inputtags from "./Projects/InputTags/Inputtags";
+import InputMap from "./Projects/InputMap/InputMap";
 //import Home from "./pages/Home";
 //import Video from "./pages/Video";
 //import SignIn from "./pages/SignIn";
@@ -43,6 +44,8 @@ function App() {
                 <Route path="/Login" element={<LoginForm />} />
                 
                 <Route path="/Inputtags" element={<Inputtags />} />
+                
+                <Route path="/Inputmap" element={<InputMap />} />
               
               </Routes>
             </Wrapper>

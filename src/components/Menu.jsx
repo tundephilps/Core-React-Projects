@@ -94,43 +94,39 @@ const Menu = ({ darkMode, setDarkMode }) => {
         </Item>
         <Hr />
         <Item>
-        <a href="/Checkbox">CheckBox Mapping</a>
+        <a href="/Checkbox">CheckBox Map</a>
           
         </Item>
         <Item>
         <a href="/Inputtags">Input Tags</a>
           
         </Item>
+        <Item>
+        <a href="/Inputmap">Input Mapping</a>
+          
+        </Item>
+       
         <Hr />
         
-        <Title>BEST OF LAMATUBE</Title>
+        <Title>Core Projects</Title>
         <Item>
-          Music
+          Coming soon
         </Item>
         <Item>
-          Sports
+          Coming soon
         </Item>
         <Item>
-          Gaming
+          Coming soon
         </Item>
         <Item>
-          Movies
-        </Item>
-        <Item>
-          News
-        </Item>
-        <Item>
-          Live
+          Coming soon
         </Item>
         <Hr />
         <Item>
           Settings
         </Item>
         <Item>
-          Report
-        </Item>
-        <Item>
-          Help
+          Documentation
         </Item>
         <Item onClick={() => setDarkMode(!darkMode)}>
           <BsBrightnessHighFill />
