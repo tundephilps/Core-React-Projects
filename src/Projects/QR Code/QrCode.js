@@ -22,10 +22,10 @@ const QrCode = () => {
   }
 
   return (
-    <div className="bg-gray-100 rounded-r-md flex flex-col items-center justify-center py-4">
+    <div className="bg-gray-100 rounded-r-md flex flex-col items-center justify-center py-4 w-[20rem] h-[20rem]">
       {response ? (
         <div>
-          <img className="w-48" src={response} alt="qrCode" />
+          <img className="w-[20rem] h-[17rem]" src={response} alt="qrCode" />
           <button
             onClick={downloadImage}
             className="bg-blue-400 text-white mt-2 px-4 py-1 w-full"
