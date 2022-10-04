@@ -59,7 +59,7 @@ const FlagApp = () => {
   return (
     <React.Fragment>
       <section>
-        <div className="bg-white w-auto h-96 pb-20 mx-5 mt-4 sm:w-full md:w-4/5 md:mx-auto lg:w-2/5 lg:mx-auto">
+        <div className="bg-white w-auto h-96 pb-20 mx-6 mt-4 sm:w-full md:w-4/5 md:mx-auto lg:w-2/5 lg:mx-auto">
           {/* header section */}
           <div className="h-32 flex justify-center items-center shadow">
             <p className="uppercase font-bold text-3xl text-center">
