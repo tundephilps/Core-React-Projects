@@ -81,7 +81,9 @@ const Menu = ({ darkMode, setDarkMode }) => {
         </a>
         <Item>
         <AiOutlineHome />
-          Home
+        <Link to="/">
+            Home
+        </Link>
         </Item>
         <Item>
           <Link to="/Password">

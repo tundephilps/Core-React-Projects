@@ -92,12 +92,12 @@ const FlagApp = () => {
                 })}
                 </select>
               </div>
-              <div>
+              <div className="flex align-items-lg-center">
                 {searchSelectedCountry && (
-                    <div className="flex space-x-4">
-                    <div className="flex items-end border-b-2 border-gray-500 pb-2">
+                    <div className="flex align-items-lg-center space-x-4">
+                    <div className="flex items-end border-b-2 border-gray-500">
                       <img
-                        className="w-16 h-8 mb-2"
+                        className="w-16 h-8"
                         src={
                             searchSelectedCountry &&
                             searchSelectedCountry.flags.png
@@ -106,7 +106,7 @@ const FlagApp = () => {
                         />
                     </div>
                     <div>
-                      <p className="h-14 text-xl flex items-end border-b-2 border-gray-500 pb-3 md:text-2xl">
+                      <p className="h-14 text-xl flex items-end border-b-2 border-gray-500 md:text-2xl">
                         {searchSelectedCountry &&
                           searchSelectedCountry.idd.root}
                         {searchSelectedCountry &&
