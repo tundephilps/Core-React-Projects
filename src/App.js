@@ -11,6 +11,7 @@ import Checkbox from "./Projects/Checkbox/Checkbox";
 import Inputtags from "./Projects/InputTags/Inputtags";
 import InputMap from "./Projects/InputMap/InputMap";
 import FlagApp from "./Projects/FlagApp/FlagApp";
+import Clock from "./Projects/Clock/Clock";
 //import Home from "./pages/Home";
 //import Video from "./pages/Video";
 //import SignIn from "./pages/SignIn";
@@ -39,6 +40,8 @@ function App() {
             <Navbar />
             <Wrapper>
               <Routes>
+                
+              <Route path="/" element={<Clock />} />
                 <Route path="/Password" element={<Password />} />
                 
                 <Route path="/Checkbox" element={<Checkbox />} />
