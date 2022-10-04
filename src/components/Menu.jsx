@@ -114,8 +114,9 @@ const Menu = ({ darkMode, setDarkMode }) => {
         <Item>
         <a href="/FlagApp">Flag App</a>
         </Item>
-        <Item>
-          Coming soon
+        <Item><Link to="/Generator">
+            Qr Generator
+        </Link>
         </Item>
         <Item>
           Coming soon

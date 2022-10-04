@@ -12,6 +12,7 @@ import Inputtags from "./Projects/InputTags/Inputtags";
 import InputMap from "./Projects/InputMap/InputMap";
 import FlagApp from "./Projects/FlagApp/FlagApp";
 import Clock from "./Projects/Clock/Clock";
+import Generator from "./Projects/QR Code/Generator";
 //import Home from "./pages/Home";
 //import Video from "./pages/Video";
 //import SignIn from "./pages/SignIn";
@@ -52,6 +53,8 @@ function App() {
                 <Route path="/Inputmap" element={<InputMap />} />
               
                 <Route path="/FlagApp" element={<FlagApp />} />
+                
+                <Route path="/Generator" element={<Generator />} />
               </Routes>
             </Wrapper>
           </Main>
