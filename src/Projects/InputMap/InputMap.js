@@ -20,7 +20,7 @@ const formSubmit = (e) => {
     <>
     <section className='Section'>
         
-    <h1>Get Value From inputfield using map in react</h1>
+    <h3>Get Value From Input field using map in react</h3>
         <div >
             <div>
                 <form onSubmit={formSubmit}>

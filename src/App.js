@@ -10,6 +10,7 @@ import LoginForm from "./Projects/Login/src/LoginForm";
 import Checkbox from "./Projects/Checkbox/Checkbox";
 import Inputtags from "./Projects/InputTags/Inputtags";
 import InputMap from "./Projects/InputMap/InputMap";
+import FlagApp from "./Projects/FlagApp/FlagApp";
 //import Home from "./pages/Home";
 //import Video from "./pages/Video";
 //import SignIn from "./pages/SignIn";
@@ -47,6 +48,7 @@ function App() {
                 
                 <Route path="/Inputmap" element={<InputMap />} />
               
+                <Route path="/FlagApp" element={<FlagApp />} />
               </Routes>
             </Wrapper>
           </Main>

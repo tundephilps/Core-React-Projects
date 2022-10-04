@@ -110,7 +110,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
         
         <Title>Core Projects</Title>
         <Item>
-          Coming soon
+        <a href="/FlagApp">Flag App</a>
         </Item>
         <Item>
           Coming soon
