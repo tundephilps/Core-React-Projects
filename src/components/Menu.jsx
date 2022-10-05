@@ -119,7 +119,6 @@ const Menu = ({ darkMode, setDarkMode }) => {
         </Link>
         </Item>
         <Item>
-        <a href="/Markdown">Markdown</a>
         </Item>
         <Item>
           Coming soon
@@ -129,7 +128,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
           Settings
         </Item>
         <Item>
-          Documentation
+        <a href="/Documentation">Documentation</a>
         </Item>
         <Item onClick={() => setDarkMode(!darkMode)}>
           <BsBrightnessHighFill />

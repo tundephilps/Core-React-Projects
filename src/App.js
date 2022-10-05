@@ -58,7 +58,7 @@ function App() {
                 
                 <Route path="/Generator" element={<Generator />} />
                 
-                <Route path="/Markdown" element={<Markdown />} />
+                <Route path="/Documentation" element={<Markdown />} />
               </Routes>
             </Wrapper>
           </Main>
