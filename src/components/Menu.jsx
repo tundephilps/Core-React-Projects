@@ -119,7 +119,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
         </Link>
         </Item>
         <Item>
-          Coming soon
+        <a href="/Markdown">Markdown</a>
         </Item>
         <Item>
           Coming soon
