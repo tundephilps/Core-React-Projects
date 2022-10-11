@@ -15,6 +15,7 @@ import Clock from "./Projects/Clock/Clock";
 import Generator from "./Projects/QR Code/Generator";
 
 import Markdown from "./Projects/Markdown/Markdown";
+import PwGenerator from "./Projects/PasswordGenerator/PwGenerator";
 //import Home from "./pages/Home";
 //import Video from "./pages/Video";
 //import SignIn from "./pages/SignIn";
@@ -58,6 +59,7 @@ function App() {
                 
                 <Route path="/Generator" element={<Generator />} />
                 
+                <Route path="/PasswordGenerator" element={<PwGenerator />} />
                 <Route path="/Documentation" element={<Markdown />} />
               </Routes>
             </Wrapper>

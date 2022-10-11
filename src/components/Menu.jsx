@@ -119,6 +119,9 @@ const Menu = ({ darkMode, setDarkMode }) => {
         </Link>
         </Item>
         <Item>
+        <Link to="/PasswordGenerator">
+            Password Generator
+        </Link>
         </Item>
         <Item>
           Coming soon
