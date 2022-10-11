@@ -44,7 +44,7 @@ const Item = styled.div`
 `;
 
 const Hr = styled.hr`
-  margin: 15px 0px;
+  margin: 5px 0px;
   border: 0.5px solid ${({ theme }) => theme.soft};
 `;
 
