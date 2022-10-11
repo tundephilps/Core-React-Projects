@@ -16,6 +16,7 @@ import Generator from "./Projects/QR Code/Generator";
 
 import Markdown from "./Projects/Markdown/Markdown";
 import PwGenerator from "./Projects/PasswordGenerator/PwGenerator";
+import BookList from "./Projects/BookListApp/BookList";
 //import Home from "./pages/Home";
 //import Video from "./pages/Video";
 //import SignIn from "./pages/SignIn";
@@ -60,6 +61,8 @@ function App() {
                 <Route path="/Generator" element={<Generator />} />
                 
                 <Route path="/PasswordGenerator" element={<PwGenerator />} />
+                
+                <Route path="/BookList" element={<BookList />} />
                 <Route path="/Documentation" element={<Markdown />} />
               </Routes>
             </Wrapper>

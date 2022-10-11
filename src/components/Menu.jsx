@@ -124,7 +124,9 @@ const Menu = ({ darkMode, setDarkMode }) => {
         </Link>
         </Item>
         <Item>
-          Coming soon
+        <Link to="/BookList">
+            BookList App
+        </Link>
         </Item>
         <Hr />
         <Item>
