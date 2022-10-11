@@ -9,3 +9,7 @@ a {
     align-items: center !important;
     justify-content: center !important;
 }
+
+.profile{
+    width: 10px;
+}

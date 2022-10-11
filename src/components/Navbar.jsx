@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import profile from "../images/profile.jpg";
 //import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 //import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 //import { Link } from "react-router-dom";
@@ -75,11 +76,8 @@ const Navbar = () => {
         <Search>
           <Input placeholder="Search" />
         </Search>
-        <a href="" style={{ textDecoration: "none" }}>
-          <Button>
-            SIGN IN
-          </Button>
-        </a>
+        
+        <img src={profile} alt="" style={{width: "40px", height: "40px", borderRadius: "40%", objectFit: "cover", cursor: "pointer"}} />
       </Wrapper>
     </Container>
   );
