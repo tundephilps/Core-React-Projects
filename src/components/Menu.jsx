@@ -91,7 +91,8 @@ const Menu = ({ darkMode, setDarkMode }) => {
         <Hr />
         
         <Title>Core Projects</Title>
-        <Item><a href="/FlagApp">Flag App</a></Item>
+        <Item><a href="/FlagApp">Flag App</a></Item> 
+        <Item><a href="/SearchFilter">Search Filter</a></Item>
         <Item><Link to="/Generator">Qr Generator</Link></Item>
         <Item><Link to="/PasswordGenerator">Password Generator</Link></Item>
         <Item><Link to="/BookList">BookList App</Link></Item>

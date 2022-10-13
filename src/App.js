@@ -19,6 +19,7 @@ import PwGenerator from "./Projects/PasswordGenerator/PwGenerator";
 import BookList from "./Projects/BookListApp/BookList";
 import FormValidation from "./Projects/FormValidation/FormValidation";
 import ShowandHide from "./Projects/ShowHideForm/ShowandHide";
+import SearchFilter from "./Projects/SearchFilter/SearchFilter";
 //import Home from "./pages/Home";
 //import Video from "./pages/Video";
 //import SignIn from "./pages/SignIn";
@@ -63,6 +64,7 @@ function App() {
               
                 <Route path="/FlagApp" element={<FlagApp />} />
                 
+                <Route path="/SearchFilter" element={<SearchFilter />} />
                 <Route path="/Generator" element={<Generator />} />
                 
                 <Route path="/PasswordGenerator" element={<PwGenerator />} />
