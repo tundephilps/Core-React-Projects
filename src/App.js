@@ -18,6 +18,7 @@ import Markdown from "./Projects/Markdown/Markdown";
 import PwGenerator from "./Projects/PasswordGenerator/PwGenerator";
 import BookList from "./Projects/BookListApp/BookList";
 import FormValidation from "./Projects/FormValidation/FormValidation";
+import ShowandHide from "./Projects/ShowHideForm/ShowandHide";
 //import Home from "./pages/Home";
 //import Video from "./pages/Video";
 //import SignIn from "./pages/SignIn";
@@ -57,6 +58,7 @@ function App() {
                 
                 <Route path="/Inputmap" element={<InputMap />} />
                 
+                <Route path="/ShowandHide" element={<ShowandHide/>} />
                 <Route path="/FormValidation" element={<FormValidation />} />
               
                 <Route path="/FlagApp" element={<FlagApp />} />

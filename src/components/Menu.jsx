@@ -87,6 +87,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
         <Item><a href="/Inputtags">Input Tags</a></Item>
         <Item><a href="/Inputmap">Input Mapping</a></Item>
         <Item><a href="/FormValidation">Form Validation</a></Item>
+        <Item><a href="/ShowandHide">Show Form</a></Item>
         <Hr />
         
         <Title>Core Projects</Title>
