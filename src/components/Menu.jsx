@@ -79,66 +79,25 @@ const Menu = ({ darkMode, setDarkMode }) => {
             Core React Projects
           </Logo>
         </a>
-        <Item>
-        <AiOutlineHome />
-        <Link to="/">
-            Home
-        </Link>
-        </Item>
-        <Item>
-          <Link to="/Password">
-            Password Strength
-        </Link>
-        </Item>
-        <Item>
-            <a href="/Login">Login Form</a>
-          
-        </Item>
+        <Item><AiOutlineHome /><Link to="/">Home</Link></Item>
+        <Item><Link to="/Password">Password Strength</Link></Item>
+        <Item><a href="/Login">Login Form</a></Item>
         <Hr />
-        <Item>
-        <a href="/Checkbox">CheckBox Map</a>
-          
-        </Item>
-        <Item>
-        <a href="/Inputtags">Input Tags</a>
-          
-        </Item>
-        <Item>
-        <a href="/Inputmap">Input Mapping</a>
-          
-        </Item>
-       
+        <Item><a href="/Checkbox">CheckBox Map</a></Item>
+        <Item><a href="/Inputtags">Input Tags</a></Item>
+        <Item><a href="/Inputmap">Input Mapping</a></Item>
+        <Item><a href="/FormValidation">Form Validation</a></Item>
         <Hr />
         
         <Title>Core Projects</Title>
-        <Item>
-        <a href="/FlagApp">Flag App</a>
-        </Item>
-        <Item><Link to="/Generator">
-            Qr Generator
-        </Link>
-        </Item>
-        <Item>
-        <Link to="/PasswordGenerator">
-            Password Generator
-        </Link>
-        </Item>
-        <Item>
-        <Link to="/BookList">
-            BookList App
-        </Link>
-        </Item>
+        <Item><a href="/FlagApp">Flag App</a></Item>
+        <Item><Link to="/Generator">Qr Generator</Link></Item>
+        <Item><Link to="/PasswordGenerator">Password Generator</Link></Item>
+        <Item><Link to="/BookList">BookList App</Link></Item>
         <Hr />
-        <Item>
-          Settings
-        </Item>
-        <Item>
-        <a href="/Documentation">Documentation</a>
-        </Item>
-        <Item onClick={() => setDarkMode(!darkMode)}>
-          <BsBrightnessHighFill />
-          {darkMode ? "Light" : "Dark"} Mode
-        </Item>
+        <Item>Settings</Item>
+        <Item><a href="/Documentation">Documentation</a></Item>
+        <Item onClick={() => setDarkMode(!darkMode)}><BsBrightnessHighFill />{darkMode ? "Light" : "Dark"} Mode</Item>
       </Wrapper>
     </Container>
   );

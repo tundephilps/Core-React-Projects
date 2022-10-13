@@ -1,11 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import profile from "../images/profile.jpg";
-//import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
-//import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
-//import { Link } from "react-router-dom";
-
-//import { BsBrightnessHighFill } from "react-icons/bs"
 
 const Container = styled.div`
   position: sticky;

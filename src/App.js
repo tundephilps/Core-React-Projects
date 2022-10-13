@@ -17,6 +17,7 @@ import Generator from "./Projects/QR Code/Generator";
 import Markdown from "./Projects/Markdown/Markdown";
 import PwGenerator from "./Projects/PasswordGenerator/PwGenerator";
 import BookList from "./Projects/BookListApp/BookList";
+import FormValidation from "./Projects/FormValidation/FormValidation";
 //import Home from "./pages/Home";
 //import Video from "./pages/Video";
 //import SignIn from "./pages/SignIn";
@@ -46,7 +47,7 @@ function App() {
             <Wrapper>
               <Routes>
                 
-              <Route path="/" element={<Clock />} />
+                <Route path="/" element={<Clock />} />
                 <Route path="/Password" element={<Password />} />
                 
                 <Route path="/Checkbox" element={<Checkbox />} />
@@ -55,6 +56,8 @@ function App() {
                 <Route path="/Inputtags" element={<Inputtags />} />
                 
                 <Route path="/Inputmap" element={<InputMap />} />
+                
+                <Route path="/FormValidation" element={<FormValidation />} />
               
                 <Route path="/FlagApp" element={<FlagApp />} />
                 
